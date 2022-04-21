@@ -60,4 +60,6 @@ y=x/60 #use another variable to store the result of the operation between variab
 x = x/60
 
 #Name the variables meaningfully
-total_min = 43+42+57 #Total length of albums in hours
+total_min = 43+42+57 #Total length of albums in minutes
+total_hours = total_min/60 #Total length of albums in hours
+

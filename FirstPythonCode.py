@@ -42,3 +42,22 @@ bool(1) #convert 1 to boolean
 bool(0) #convert 0 to boolean
 float(True) #convert True to float
 
+									#Expression and Variables
+									
+43+60+16+41 #Addition operation expression
+50-60 #Subtraction operation expression
+5*5 # Multiplication operation expression
+25/5 # Division operation expression
+25//6 #Integer division operation expression
+
+#variables
+x = 43+60+16+41 #store value into variable "x"
+print(x) #print out the value in variable
+
+y=x/60 #use another variable to store the result of the operation between variable and value
+
+#if we save a value to an existing variable. the new value will overwrite the previous value
+x = x/60
+
+#Name the variables meaningfully
+total_min = 43+42+57 #Total length of albums in hours
